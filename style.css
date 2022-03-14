@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Courier+Prime:ital@0;1&display=swap');
 
 body {
   color: rgb(19, 15, 15);
   background-color: rgb(240,240,240);
-  font-family: 'Oxygen';
-  font-weight: lighter;
+  font-family: 'Courier Primer';
+  font-style: italic;
   line-height: 25px;
 }
 img {
@@ -18,7 +18,9 @@ h2 {
 }
  h1, h2 {
    color: #384E77;
-   font-family: 'Bevan';
+   font-family: 'Allerta Stencil';
+   font-style: normal;
+   font-weight: bolder;
    line-height: 20px;
  }
  a {
@@ -61,10 +63,18 @@ h2 {
   padding-left: 0px;
 }
 .btn-blue {
-  background-color: #8ba7da;
-  color: white;
+  color: #384E77;
   padding: 10px 16px;
+  border: 1px solid #384E77;
   border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 35%);
+  font-family: 'Courier Primer';
+  font-weight: lighter;
+  transition: .5s;
+}
+.btn-blue:hover {
+  background-color: #baccee;
+  border: 1px solid #baccee;
 }
 /* media queries */
 @media (max-width: 960px) {
